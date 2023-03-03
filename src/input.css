@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .wrap {
+    @apply container mx-auto px-4;
+  }
+
+  .about-card {
+    @apply flex flex-col justify-center items-center max-w-6xl h-52 w-full;
+  }
+
+  .about-gradiant-text {
+    @apply text-4xl lg:text-5xl p-4 text-center font-bold bg-gradient-to-r from-primary-dark to-secondary-dark bg-clip-text text-transparent;
+  }
+}
+
+@layer utilities {
+  .content-0 {
+    content: " ";
+  }
+  .rounded-4xl {
+    border-radius: 2rem;
+  }
+}

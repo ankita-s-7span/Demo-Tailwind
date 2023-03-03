@@ -1,0 +1,20 @@
+{
+  "name": "Demo-Tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/input.css -o ./dist/output.css -w"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
+  }
+}
